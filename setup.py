@@ -8,5 +8,5 @@ setuptools.setup(
       description='CEU Mass Mediator Tool',
       url='https://github.com/diegogomezca/CMM_SimpleSearch',
       author='Diego Gomez',
-      packages=['src']
+      packages=setuptools.find_packages(where="src"),
 )
