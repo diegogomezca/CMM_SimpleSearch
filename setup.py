@@ -1,5 +1,6 @@
 import setuptools
 
+holz
 
 setuptools.setup(
       name='cmmsimplesearch',
