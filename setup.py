@@ -1,6 +1,7 @@
-from setuptools import setup
+from setuptools
 
-setup(
+
+setuptools.setup(
       name='cmmsimplesearch',
       version='1.0.0',
       description='CEU Mass Mediator Tool',
