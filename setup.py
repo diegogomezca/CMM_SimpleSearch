@@ -1,7 +1,4 @@
 import setuptools
-
-
-
 setuptools.setup(
       name='cmmsimplesearch',
       version='1.0.0',
