@@ -6,7 +6,3 @@ def main():
 	parser.add_argument('--version', action='version', version='1.0')
 	args = parser.parse_args()
 	return args
-
-
-if __name__ == '__main__':
-    exit(main())
