@@ -6,6 +6,6 @@ setuptools.setup(
       url='https://github.com/diegogomezca/CMM_SimpleSearch',
       author='Diego Gomez',
       install_requires=['requests'],
-      packages=['cmmsimplesearch'],
+      packages=['simplesearch'],
       entry_points={'console_scripts': ['cmmsimplesearch=simplesearch.cli:main']},
 )
