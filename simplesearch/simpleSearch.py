@@ -22,10 +22,3 @@ def simple_search(metabolites_type, databases, masses_mode, ion_mode,adducts,tol
 
 	return json
 
-def command ():
-	parser = argparse.ArgumentParser(description='CEU Mass Mediator is a tool for searching metabolites in different databases')
-	parser.add_argument('--version', action='version', version='1.0')
-	args = parser.parse_args()
-	
-
-
