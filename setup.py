@@ -7,5 +7,5 @@ setuptools.setup(
       author='Diego Gomez',
       install_requires=['requests'],
       packages=['simplesearch'],
-      entry_points={'console_scripts': ['cmmsimplesearch=simplesearch.cli:main']},
+      entry_points={'console_scripts': ['cmmsimplesearch=simplesearch.simpleSearch:command']},
 )
