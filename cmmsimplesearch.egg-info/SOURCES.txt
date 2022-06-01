@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cmmsimplesearch.egg-info/PKG-INFO
+cmmsimplesearch.egg-info/SOURCES.txt
+cmmsimplesearch.egg-info/dependency_links.txt
+cmmsimplesearch.egg-info/entry_points.txt
+cmmsimplesearch.egg-info/requires.txt
+cmmsimplesearch.egg-info/top_level.txt
+simplesearch/__init__.py
+simplesearch/cli.py
+simplesearch/simpleSearch.py
