@@ -26,12 +26,8 @@ def simple_search(metabolites_type, databases, masses_mode, ion_mode,adducts,tol
 
 	out = requests.post(url,json = x)
 	# No se puede asumir que es correcto
-	print(out.status_code)
-
-	json = out.json()
-
-	return json
-
+	
+	return out
 
 def main():
 	
@@ -51,9 +47,9 @@ def main():
 
 	args = parser.parse_args()
 	# SWITCH CASE CON QUERY TYPE 
-	outjson = simple_search(args.metabolites_type,args.databases,args.masses_mode,args.ion_mode,args.adducts,args.tolerance,args.tolerance_mode,args.masses)
+	out = simple_search(args.metabolites_type,args.databases,args.masses_mode,args.ion_mode,args.adducts,args.tolerance,args.tolerance_mode,args.masses)
 
-	return(outjson)
+	return(out)
 
 if __name__ == '__main__':
     main()
