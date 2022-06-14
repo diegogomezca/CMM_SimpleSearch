@@ -19,7 +19,7 @@ def simple_search(metabolites_type, databases, masses_mode, ion_mode,adducts,tol
 
 	out = requests.post(url,json = x)
 
-	return out
+	return out.text
 
 
 def main():
