@@ -42,7 +42,7 @@ def main():
 
 	out = simple_search(args.metabolites_type,args.databases,args.masses_mode,args.ion_mode,args.adducts,args.tolerance,args.tolerance_mode,args.masses)
 	
-	print("hola")
+	print(out)
 	
 	#return out
 
