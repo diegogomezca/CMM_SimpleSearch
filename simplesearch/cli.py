@@ -41,8 +41,6 @@ def main():
 	args = parser.parse_args()
 
 	out = simple_search(args.metabolites_type,args.databases,args.masses_mode,args.ion_mode,args.adducts,args.tolerance,args.tolerance_mode,args.masses)
-	print("Imprimiendo out:")
-	print(out)
 	return out
 
 if __name__ == '__main__':
